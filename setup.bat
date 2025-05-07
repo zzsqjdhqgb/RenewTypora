@@ -1,0 +1,6 @@
+@echo 正在初始化（首次执行解压缩 Python）...
+%~dp0RenewTypora.exe
+@echo 正在添加开机自启...
+copy "%~dp0RenewTypora.exe" "%APPDATA%\Microsoft\Windows\Start Menu\Programs\Startup\RenewTypora.exe"
+@echo 已经添加至开机自启，如果出现任何错误，请尝试手动复制，或以管理员权限运行
+@pause
